@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="ExceptionSuite" verbose="2" annotations="JDK">
+    <parameter name="url" value="https://practicetestautomation.com/practice-test-exceptions/"/>
+    <test name="ExceptionsTest" preserve-order="true" >
+        <classes>
+            <class name="com.practicetestautomation.tests.ExceptionTests">
+                <methods>
+                    <include name="elementNotInteractableExceptionTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
